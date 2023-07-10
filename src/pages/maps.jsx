@@ -22,14 +22,18 @@ export default function Maps() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <main className='bg-gray-100 min-h-screen'>
       <div className='pb-6'>
         <Header />
 
         </div>
-      <main className='bg-gray-100 min-h-screen px-20'>
+        <div className='bg-gray-100 min-h-screen px-20'>
 
         
         <Googlemap />
+
+        </div>
         
       </main>
       </>
