@@ -1,14 +1,17 @@
 import React from 'react'
 import { data } from '../../data/data'
 import {BsPersonFill, BsThreeDotsVertical} from 'react-icons/bs'
+import Header from '../../components/Header'
 
 const Users = () => {
   return (
     <div className='bg-gray-100 min-h-screen'>
+        <Header />
         <div className='flex justify-between p-4'>
             <h2 className='px-20'>Regions</h2>
-            <h2>Welcome back, Collins</h2>
+           
         </div>
+        
         <div className='w-full m-auto px-10 border rounded-lg bg-white overflow-y-auto'>
             <div className='my-3 py-2 grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 items-center justify-between cursor-pointer'>
                 <span className='px-20 font-bold'>Name</span>

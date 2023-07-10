@@ -2,14 +2,16 @@ import React from 'react'
 import {FaTemperatureLow} from 'react-icons/fa';
 import { BsThreeDotsVertical} from 'react-icons/bs';
 import { data } from '../../data/data';
+import Header from '../../components/Header';
 
 
 const readings = () => {
   return (
+    
     <div className='bg-gray-100 min-h-screen'>
+        <Header />
         <div className='flex justify-between px-4 pt-4'>
             <h2 className='pl-20'>Readings</h2>
-            <h2>Welcome Back, Collins</h2>
         </div>
         <div className='px-20'>
             <div className='w-full m-auto p-2 border rounded-lg bg-white overflow-y-auto'>
@@ -19,6 +21,7 @@ const readings = () => {
                     <span className='hidden md:grid font-bold'>Last Reading</span>
                     <span className='hidden sm:grid font-bold'>Device</span>
                 </div>
+                
                 <ul>
                     {data.map((order, id) => (
                         <li key={id} className='bg-gray-50 hover:bg-gray-100 rounded-lg my-3 px-20 grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 items-center justify-between cursor-pointer'>
