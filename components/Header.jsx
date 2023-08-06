@@ -21,7 +21,7 @@ const Header = () => {
     <Authenticator>
       {({ user }) => (
     <div className='flex justify-between px-20 pt-4'>
-        <h2 className='text-xl'>AIR QUALITY ENVIRONMENTAL MONITORING DASHBOARD</h2>
+        <h2 className='text-xl'>AIR QUALITY ENVIRONMENTAL MONITORING DASHBBOARD</h2>
         <div className="flex flex-row">
         <div className='pt-1 pr-2'><h2>Welcome ,  {toCamelCase(user.username) }</h2></div>
         <div className='relative'>
