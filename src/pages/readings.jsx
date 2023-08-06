@@ -3,12 +3,13 @@ import {FaTemperatureLow} from 'react-icons/fa';
 import { BsThreeDotsVertical} from 'react-icons/bs';
 import { data } from '../../data/data';
 import Header from '../../components/Header';
+import background from '../../public/sky.png';
 
 
 const readings = () => {
   return (
     
-    <div className='bg-gray-100 min-h-screen'>
+    <div className="bg-gray-100 min-h-screen'>
         <Header />
         <div className='flex justify-between px-4 pt-4'>
             <h2 className='pl-20'>Readings</h2>
