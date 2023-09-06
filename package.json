@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@aws-amplify/ui-react": "^4.6.0",
+    "@aws-amplify/ui-react": "^5.0.4",
     "@react-google-maps/api": "^2.18.1",
     "@vercel/analytics": "^0.1.11",
     "aws-amplify": "^5.1.1",
