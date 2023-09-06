@@ -11,10 +11,6 @@ import '@aws-amplify/ui-react/styles.css';
 import awsExports from '../src/aws-exports.js';
 Amplify.configure(awsExports);
 
-function toCamelCase(str) {
-  return str.replace(/[-_](.)/g, (_, c) => c.toUpperCase());
-}
-
 
 const Header = () => {
   return (
