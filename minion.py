@@ -9,6 +9,8 @@ from AWSIoTPythonSDK.MQTTLib import AWSIoTMQTTClient
 import json
 import time
 
+from datetime import datetime
+
 #Setup our MQTT client and security certificates
 #Make sure your certificate names match what you downloaded from AWS IoT
 
@@ -24,12 +26,24 @@ def json_encode(string):
 
 mqttc.json_encode=json_encode
 
+
+
+# datetime object containing current date and time
+now = datetime.now()
+ 
+# dd/mm/YY H:M:S
+dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
+
+
 #Declaring our variables
 message ={
-  'Temperature': "26°C",
-  'Relative Humidity': "72%",
-  'Air Quality Index': "13 AQI",
-  'message': "31-03-2023 Readings"
+  'timeStamp': dt_string,
+  'deviceId': "Arduino034",
+  'latitude': -0.29278028315129256, 
+  'longitude': 36.82997663286112,
+  'temperature': 30,
+  'relativeHumidity': 67,
+  'pressure': 78
 }
 
 #Encoding into JSON
@@ -37,7 +51,7 @@ message = mqttc.json_encode(message)
 
 #This sends our test message to the iot topic
 def send():
-    mqttc.publish("iot", message, 0)
+    mqttc.publish("dekut-iot-simulated", message, 0)
     print("Message Published")
 
 
