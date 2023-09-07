@@ -28,7 +28,7 @@ const TopCards = () => {
 
         <div className='lg:col-span-2 col-span-1 bg-white flex justify-between w-full border p-4 rounded-lg'>
             <div className='flex flex-col w-full pb-4'>
-                <p className='text-2xl font-bold '>23.7 °C</p>
+                <p className='text-2xl font-bold '>18 °C</p>
                 <p className='text-gray-600'>Average Temperature</p>
             </div>
             <p className='bg-green-200 flex justify-center items-center p-4 rounded-lg'>
@@ -37,7 +37,7 @@ const TopCards = () => {
         </div>
         <div className='lg:col-span-2 col-span-1 bg-white flex justify-between w-full border p-4 rounded-lg'>
             <div className='flex flex-col w-full pb-4'>
-                <p className='text-2xl font-bold '>78.4%</p>
+                <p className='text-2xl font-bold '>76%</p>
                 <p className='text-gray-600'>Relative Humidity</p>
             </div>
             <p className='bg-red-200 flex justify-center items-center p-4 rounded-lg'>
@@ -55,7 +55,7 @@ const TopCards = () => {
         </div>
         <div className='lg:col-span-2 col-span-1 bg-white flex justify-between w-full border p-4 rounded-lg'>
             <div className='flex flex-col w-full pb-4'>
-                <p className='text-2xl font-bold '>13 AQI</p>
+                <p className='text-2xl font-bold '>69 AQI US</p>
                 <p className='text-gray-600'>Air Quality Index</p>
             </div>
             <p className='bg-green-200 flex justify-center items-center p-4 rounded-lg'>
@@ -64,7 +64,7 @@ const TopCards = () => {
         </div>
         <div className='lg:col-span-2 col-span-1 bg-white flex justify-between w-full border p-4 rounded-lg'>
             <div className='flex flex-col w-full pb-4'>
-                <p className='text-2xl font-bold '>1020 mbar</p>
+                <p className='text-2xl font-bold '>1019 mbar</p>
                 <p className='text-gray-600'>Pressure</p>
             </div>
             <p className='bg-green-200 flex justify-center items-center p-4 rounded-lg'>
