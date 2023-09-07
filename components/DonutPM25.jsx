@@ -29,7 +29,7 @@ const DonutPM25 = () => {
             plugins: {
                 title: {
                     display: true,
-                    text: 'PM-25 Air Quality Reading',
+                    text: 'PM-25 Reading',
                     font: {
                         size: 20,
                         family: 'Futura',

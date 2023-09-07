@@ -33,7 +33,7 @@ const DonutCO2 = () => {
                 },
                 title: {
                     display: true,
-                    text: 'CO2 - Air Quality Reading',
+                    text: 'CO2 Reading',
                     font: {
                         size: 20,
                         family: 'Futura',
