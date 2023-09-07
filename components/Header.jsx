@@ -11,7 +11,6 @@ import '@aws-amplify/ui-react/styles.css';
 import awsExports from '../src/aws-exports.js';
 Amplify.configure(awsExports);
 
-
 const Header = () => {
   return (
     <Authenticator>
