@@ -61,7 +61,7 @@ const DonutPM25 = () => {
             ctx.fillStyle = '#00B7FB';
             ctx.textAlign = 'center';
             ctx.textBaseline = 'middle';
-            ctx.fillText('30 ug/m3', width/2, height/2 + top*1.7);
+            ctx.fillText('15.2 ug/m3', width/2, height/2 + top*1.7);
             ctx.restore();
             
         }
