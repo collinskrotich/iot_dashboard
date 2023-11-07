@@ -28,9 +28,7 @@ export default function Maps() {
         <Header />
 
         </div>
-        <div className='bg-gray-100 min-h-screen px-20'>
-
-        
+        <div className='bg-gray-100 min-h-screen px-20'>      
         <Googlemap />
 
         </div>
