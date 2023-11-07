@@ -25,6 +25,7 @@ function Map() {
            mapContainerClassName='map-container'
            >
           <Marker position={{lat: -1.2589281655331093, lng: 36.785689660197995  }}/> 
+          <Marker position={{lat: -1.258435167482621, lng: 36.789462467761766  }}/> 
   </GoogleMap>
 }
 
