@@ -20,7 +20,7 @@ export default function Googlemap () {
 function Map() {
 
   return <GoogleMap  
-           zoom={11}  
+           zoom={14}  
            center={{lat: -1.2589281655331093, lng: 36.785689660197995  }}  
            mapContainerClassName='map-container'
            >
