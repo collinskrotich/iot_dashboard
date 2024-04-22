@@ -40,12 +40,12 @@ const Sidebar = ({ children }) => {
                     </div>
                 </Link>
 
-                <Link href ='/users' >
+                {/* <Link href ='/users' >
                     <div className='bg-green-600 text-white p-3 mt-10 rounded-lg inline-block' >
                         <MdForest size = '40'/>
                         REGIONS
                     </div>
-                </Link>
+                </Link> */}
 
 
 

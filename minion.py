@@ -38,12 +38,12 @@ dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
 #Declaring our variables
 message ={
   'timeStamp': dt_string,
-  'deviceId': "Arduino034",
+  'deviceId': "Test 1",
   'latitude': -0.29278028315129256, 
   'longitude': 36.82997663286112,
-  'temperature': 30,
-  'relativeHumidity': 67,
-  'pressure': 78
+  'temperature': 35,
+  'relativeHumidity': 74,
+  'pressure': 55
 }
 
 #Encoding into JSON
@@ -51,7 +51,7 @@ message = mqttc.json_encode(message)
 
 #This sends our test message to the iot topic
 def send():
-    mqttc.publish("dekut-iot-simulated", message, 0)
+    mqttc.publish("hackathon-24", message, 0)
     print("Message Published")
 
 

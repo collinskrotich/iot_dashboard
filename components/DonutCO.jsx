@@ -17,9 +17,9 @@ const DonutCO = () => {
             datasets: [
                 {
                     label: 'CO Quality Reading',
-                    data: [12, 0.5],
-                    borderColor: 'rgb(53, 162, 235)',
-                    backgroundColor: ['#63BB71', '#FFC700'],
+                    data: [12, 6],
+                    borderColor: '',
+                    backgroundColor: ['#A8F1C0', '#FFC700'],
                     // 'rgb(53, 162,235, 0.4)',
                     circumference: 240,
                     rotation: 240,

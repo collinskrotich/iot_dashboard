@@ -18,8 +18,8 @@ const DonutCO2 = () => {
                 {
                     label: 'CO2-Air Quality Reading',
                     data: [183, 12],
-                    borderColor: 'rgb(53, 162, 235)',
-                    backgroundColor: ['#63BB71', '#FFC700'],
+                    borderColor: '',
+                    backgroundColor: ['#A8F1C0', '#FFC700'],
                     // 'rgb(53, 162,235, 0.4)',
                     circumference: 240,
                     rotation: 240,
