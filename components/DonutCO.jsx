@@ -19,7 +19,7 @@ const DonutCO = () => {
                     label: 'CO Quality Reading',
                     data: [12, 6],
                     borderColor: '',
-                    backgroundColor: ['#A8F1C0', '#F5B7C6'],
+                    backgroundColor: ['#A8F1C0', '#fecaca'],
                     // 'rgb(53, 162,235, 0.4)',
                     circumference: 240,
                     rotation: 240,
